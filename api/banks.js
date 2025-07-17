@@ -1,16 +1,4 @@
 export default function handler(req, res) {
-  const banks = [
-    "Emirates NBD",
-    "Dubai Islamic Bank",
-    "Abu Dhabi Commercial Bank",
-    "First Abu Dhabi Bank",
-    "HSBC Middle East",
-    "Mashreq Bank",
-    "Banque Misr",
-    "Crédit Agricole",
-    "Société Générale",
-    "BNP Paribas"
-  ];
-  
+  const banks = ['Emirates NBD', 'Dubai Islamic Bank', 'Abu Dhabi Commercial Bank', 'First Abu Dhabi Bank', 'HSBC Middle East', 'Mashreq Bank', 'Banque Misr', 'Crédit Agricole', 'Société Générale', 'BNP Paribas', 'Barclays', 'Bank of America', 'Wells Fargo', 'JPMorgan Chase', 'Citibank', 'Goldman Sachs', 'Morgan Stanley', 'Deutsche Bank', 'Commerzbank', 'UBS', 'Credit Suisse', 'Bank of China', 'China Construction Bank', 'Industrial and Commercial Bank of China', 'HSBC', 'Standard Chartered', 'Santander', 'CaixaBank', 'Banco Bilbao Vizcaya Argentaria', 'Intesa Sanpaolo', 'UniCredit', 'Raiffeisen Bank', 'ING', 'ABN AMRO', 'Danske Bank', 'Skandinaviska Enskilda Banken', 'Nordea Bank', 'Rabobank', 'Swedbank', 'Kuwait Finance House', 'National Bank of Kuwait', 'Qatar National Bank', 'Doha Bank', 'Commercial Bank of Qatar', 'Ahli Bank', 'Bank Muscat', 'Bank Dhofar', 'National Bank of Oman', 'Turkiye Is Bankasi', 'Akbank', 'Garanti BBVA', 'Yapi Kredi', 'Halkbank', 'Ziraat Bank', 'Bank Aljazira', 'Al Rajhi Bank', 'Banque Saudi Fransi', 'Riyad Bank', 'Saudi National Bank', 'Union Bank of India', 'State Bank of India', 'Punjab National Bank', 'ICICI Bank', 'HDFC Bank', 'Axis Bank', 'Yes Bank', 'Kotak Mahindra Bank', 'IDBI Bank', 'Canara Bank', 'Bank of Baroda', 'National Commercial Bank', 'Banque Libano-Française', 'Fransabank', 'Banque BEMO', 'Bank Audi', 'Arab Bank', 'Bank of Palestine', 'Cairo Amman Bank', 'Jordan Kuwait Bank', 'Bank Al Etihad', 'Bank of Africa', 'Ecobank', 'UBA', 'First Bank of Nigeria', 'Zenith Bank', 'GTBank', 'Attijariwafa Bank', 'Banque Populaire', 'BMCE Bank', 'Banque de Tunisie', 'Banque Zitouna', 'Banque Nationale Agricole', 'Société Tunisienne de Banque', 'Afriland First Bank', 'Diamond Bank', 'Stanbic IBTC Bank', 'Access Bank', 'UBA Ghana', 'First National Bank (South Africa)', 'Capitec Bank', 'BDO Unibank', 'Bank of the Philippine Islands (BPI)', 'Land Bank of the Philippines', 'Metrobank', 'Security Bank', 'Philippine National Bank (PNB)', 'China Bank', 'UnionBank', 'EastWest Bank', 'Development Bank of the Philippines (DBP)', 'RCBC', 'UCPB', 'Maybank Philippines'];
   res.status(200).json(banks);
 }
